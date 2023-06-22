@@ -1,0 +1,49 @@
+
+SQL*Loader: Release 11.2.0.1.0 - Production on Sat May 20 20:48:50 2023
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   D:\work\What-SQL-algorithms-I-use-in-my-learning-SQL\data_gov_ro\test.ctl
+Data File:      C:\Users\VitalieBancu\Downloads\3firme_neradiate_cu_sediu_2023-04-07 (2).csv
+  Bad File:     C:\Users\VitalieBancu\Downloads\3firme_neradiate_cu_sediu_2023-04-07 (2).bad
+  Discard File: C:\Users\VitalieBancu\Downloads\3firme_neradiate_cu_sediu_2023-04-07 (2).dsc 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+---
+Table "USER_BANCU"."DATA_GOV_RO", loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+DENUMIRE                            FIRST     *   ,       CHARACTER            
+
+Record 298888: Discarded - all columns null.
+Record 440059: Discarded - all columns null.
+Record 1582699: Discarded - all columns null.
+
+Table "USER_BANCU"."DATA_GOV_RO":
+  1838701 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  3 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  16512 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:       1838704
+Total logical records rejected:         0
+Total logical records discarded:        3
+
+Run began on Sat May 20 20:48:50 2023
+Run ended on Sat May 20 20:52:12 2023
+
+Elapsed time was:     00:03:21.37
+CPU time was:         00:00:03.72

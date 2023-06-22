@@ -1,0 +1,40 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> develop
+=======
+
+
+>>>>>>> 23aa92040dd91a30ac35aff321f5c8699ed72114
+SELECT 
+REGEXP_SUBSTR(DENUMIRE, '[^''^'']+', 1, 1) AS COL1,
+REGEXP_SUBSTR(DENUMIRE, '[^''^'']+', 1, 2) AS COL2,
+REGEXP_SUBSTR(DENUMIRE, '[^''^'']+', 1, 3) AS COL3,
+REGEXP_SUBSTR(DENUMIRE, '[^''^'']+', 1, 4) AS COL4,
+REGEXP_SUBSTR(DENUMIRE, '[^''^'']+', 1, 5) AS COL5,
+REGEXP_SUBSTR(DENUMIRE, '[^''^'']+', 1, 6) AS COL6,
+REGEXP_SUBSTR(DENUMIRE, '[^''^'']+', 1, 7) AS COL7,
+<<<<<<< HEAD
+<<<<<<< HEAD
+REGEXP_SUBSTR(DENUMIRE, '[^''^'']+', 1, 8) AS COL8
+=======
+=======
+>>>>>>> 23aa92040dd91a30ac35aff321f5c8699ed72114
+REGEXP_SUBSTR(DENUMIRE, '[^''^'']+', 1, 8) AS COL8,
+REGEXP_SUBSTR(DENUMIRE, '[^''^'']+', 1, 9) AS COL9,
+REGEXP_SUBSTR(DENUMIRE, '[^''^'']+', 1, 10) AS COL10,
+REGEXP_SUBSTR(DENUMIRE, '[^''^'']+', 1, 11) AS COL11,
+REGEXP_SUBSTR(DENUMIRE, '[^''^'']+', 1, 12) AS COL12,
+REGEXP_SUBSTR(DENUMIRE, '[^''^'']+', 1, 13) AS COL13,
+REGEXP_SUBSTR(DENUMIRE, '[^''^'']+', 1, 14) AS COL14,
+REGEXP_SUBSTR(DENUMIRE, '[^''^'']+', 1, 15) AS COL15,
+REGEXP_SUBSTR(DENUMIRE, '[^''^'']+', 1, 16) AS COL16
+
+<<<<<<< HEAD
+>>>>>>> develop
+=======
+>>>>>>> 23aa92040dd91a30ac35aff321f5c8699ed72114
+
+FROM DATA_GOV_RO

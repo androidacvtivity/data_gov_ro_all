@@ -1,0 +1,10 @@
+SELECT * 
+
+
+<<<<<<< HEAD
+FROM USER_BANCU.DATA_GOV_RO
+=======
+FROM USER_BANCU.DATA_GOV_RO
+
+LOCATE('Å', COL1) > 0
+>>>>>>> develop

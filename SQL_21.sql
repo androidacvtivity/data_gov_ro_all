@@ -1,0 +1,9 @@
+SELECT DENUMIRE
+FROM data_gov_ro
+
+WHERE 
+
+LOCATE('4305601', DENUMIRE) > 0
+
+
+

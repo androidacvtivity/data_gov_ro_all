@@ -1,0 +1,25 @@
+CREATE TABLE RSF1 (
+  name VARCHAR2(255),
+  street VARCHAR2(255),
+  fisc VARCHAR2(255),
+  cfp VARCHAR2(255),
+  cuatm VARCHAR2(255),
+  cfoj VARCHAR2(255),
+  caem VARCHAR2(255),
+  fiscal VARCHAR2(255),
+  telefon VARCHAR2(255),
+  cuiio VARCHAR2(255),
+  web VARCHAR2(255),
+  email VARCHAR2(255),
+  nrEmployees VARCHAR2(255),
+  employeesAbs VARCHAR2(255),
+  datefisc VARCHAR2(255),
+  period_from VARCHAR2(255),
+  period_to VARCHAR2(255),
+  respons VARCHAR2(255),
+  lichidare VARCHAR2(255),
+  contabil_name VARCHAR2(255),
+  contabil_telefon VARCHAR2(255),
+  table1_date VARCHAR2(255)
+  -- Add more columns here as needed
+);

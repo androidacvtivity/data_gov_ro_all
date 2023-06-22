@@ -1,0 +1,1 @@
+INSERT INTO RSF1 (name, street, fisc, cfp, cuatm, cfoj, caem, fiscal, telefon, cuiio, web, email, nrEmployees, employeesAbs, datefisc, period_from, period_to, respons, lichidare, contabil_name, contabil_telefon, table1_date)
