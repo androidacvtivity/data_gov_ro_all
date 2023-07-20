@@ -1,13 +1,25 @@
 SELECT 
-id_vw,
-COUNT(id_vw) AS CNT 
+CUI,
+COUNT(CUI) AS CNT 
 
 
 FROM vw_data_all_ro_3
 
 GROUP BY 
-id_vw
+CUI
 
 HAVING 
 
-COUNT(id_vw) > 1
+
+COUNT(CUI) > 1;
+
+
+ 
+SELECT  *
+FROM vw_data_all_ro_3
+WHERE
+CUI = 35538631;
+
+
+
+
